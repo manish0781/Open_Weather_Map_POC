@@ -1,0 +1,18 @@
+.main-container_div {
+  margin-left: 21%;
+  margin-top: 5%;
+  width: 60%;
+  font-family: Space Grotesk, Arial, sans-serif;
+}
+.main-container_div > .weather-header {
+  padding: 32px;
+  text-align: center;
+  background: #c0c0c0;
+  color: black;
+  font-size: 30px;
+  margin-bottom: 16px;
+}
+
+.main-container_div > .no-api_key {
+  color: red;
+}
