@@ -107,6 +107,17 @@ const Search = (props: {
             Search
           </button>
         </div>
+        <div>
+          <button
+            type="button"
+            className="search-button"
+            onClick={() => {
+              window.location.reload();
+            }}
+          >
+            Clear
+          </button>
+        </div>
       </div>
       {isError && <div className="no-data">No Data found</div>}
     </>
