@@ -1,4 +1,4 @@
 {
   "API_TOKEN": "",
-  "BASE_URL": "https://openweathermap.org"
+  "BASE_URL": "https://api.openweathermap.org"
 }
